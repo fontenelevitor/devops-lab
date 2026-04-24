@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from datetime import datetime
 
 app = Flask(__name__)
+# teste
 
 @app.route("/")
 def home():
