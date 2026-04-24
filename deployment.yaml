@@ -15,5 +15,6 @@ spec:
       containers:
         - name: minha-api
           image: vitorgsf/devops-python-api:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
